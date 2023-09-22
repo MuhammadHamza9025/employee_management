@@ -1,38 +1,92 @@
-.App {
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 97%;
+  margin: auto;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.bold {
+  font-size: larger;
+  font-weight: bolder;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+button {
+  height: 30px;
+  width: 70px;
+  background-color: rgb(164, 164, 164);
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+
+
+
+}
+
+button:hover {
+  background-color: gray;
+}
+
+h1 {
+  margin: auto;
+
   text-align: center;
+  margin: 1em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3 {
+  color: gray;
+  padding: 2em 0em 0.8em 2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.add {
+  position: relative;
+  right: 0px;
+  margin-right: 15em;
+  margin-top: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.addbtn {
+  display: flex;
+  justify-content: end;
+
+}
+
+.inputfileds {
+
+
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 70%;
+
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  margin: 1em 0em 1em 0em;
+  height: 35px;
 }
